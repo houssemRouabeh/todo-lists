@@ -4,6 +4,8 @@ let addButton = document.getElementById("addButton");
 let liste = document.getElementById("itemList");
 
 let ajouText = ()=> {
-    addButton.onclick()
+    addButton.onclick("click",()=>{
+        liste.appendChild("li")
+    })
 
 }
